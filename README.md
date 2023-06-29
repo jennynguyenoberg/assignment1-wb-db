@@ -13,7 +13,6 @@ Use http://localhost:3001 on your web browser or via [Postman](https://www.postm
 <sub>(Note that you are required to add the [API-key](#api-key) to access the list of movies.)</sub>
 
 ## API Endpoints
----
 ### GET all movies
 
 Metod: `GET`<br>
@@ -68,7 +67,6 @@ URL: `/characters/:id`<br>
 Example: `http://localhost:3001/movies/tt0867211`
 
 ## How to use the API with Postman
----
 1. Download and install [Postman](https://www.postman.com/downloads/).
 2. Create a new "Collection" in Postman.
 3. For each API endpoint, create a new "Request" in your collection and configure it with the right method and URL (as seen above).
@@ -76,7 +74,6 @@ Example: `http://localhost:3001/movies/tt0867211`
 5. Send your requests and explore!
 
 ## API Key
----
 To get access to the list of movies you need to add the API-key (in this case **?apiKey=5**) to the URL, as such: `http://localhost:3001/movies?apiKey=5`
 
 Example of specific movie ID: `http://localhost:3001/movies/tt0867211?apiKey=5`
