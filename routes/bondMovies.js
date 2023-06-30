@@ -27,7 +27,7 @@ router.post("/", (req, res) => {
   const movie = req.body.movie;
   const newMovie = {
     ...movie,
-    imdbID: nextId,
+    imdbID: nextId.toString()
   }
 
   nextId++;
